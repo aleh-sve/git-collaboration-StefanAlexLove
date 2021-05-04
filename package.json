@@ -1,5 +1,27 @@
 {
   "dependencies": {
+    "npx": "^10.2.2"
+  },
+  "name": "LoveStefanAlex-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
     "cypress": "^7.2.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grewdwarf/LoveStefanAlex-git-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grewdwarf/LoveStefanAlex-git-Project/issues"
+  },
+  "homepage": "https://github.com/Grewdwarf/LoveStefanAlex-git-Project#readme",
+  "description": ""
 }
