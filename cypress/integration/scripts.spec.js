@@ -21,5 +21,5 @@ describe('Test suite - FalsktAlarm', () => {
         cy.log('Asserted that the word exists on this specific page')
 
     })
-
+    
 });
