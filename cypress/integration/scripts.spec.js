@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-// Alexander,Love, Stefan
+//Stefan, Alexander, Love
 //tests
 describe('Test suite - FalsktAlarm', () => {
     beforeEach('Visit website', () => {
