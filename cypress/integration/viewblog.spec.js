@@ -8,6 +8,6 @@ describe('Test visit blogpost', () => {
     it('Click blogpost', () => {
         cy.get('#post-6 > .entry-header > .entry-header-wrap').click()
         cy.should('contain', 'First blog post')
-        cy.get('.site-title > a').click()
+        cy.log('Asserted that the word exists on this specific page')
     })
 });
