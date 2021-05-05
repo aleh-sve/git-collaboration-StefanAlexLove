@@ -3,9 +3,9 @@
   describe('Contact website owner', () => {
     beforeEach('Visit website', () => {
         cy.visit('/')
-        cy.wait(200)
+        cy.wait(2000)
     })
-  //Fill contact:
+  // Fill contact:
     it('Fill CONTACT', () => {
         cy.wait(2000)
         cy.get('.page-item-3 > a').click()
@@ -17,6 +17,7 @@
         cy.get('#g3-website').click().type("https://www.penisland.net")
         cy.wait(200)
         cy.get('#contact-form-comment-g3-comment').click().type("Lorem Ipsum Rektum")
-        cy.wait(200)
+        cy.wait(2500)
+        cy.request('https://falsktalarm.wordpress.com/contact/').log(".:CURRENT PAGE RELOADED:.")
     })
 });
