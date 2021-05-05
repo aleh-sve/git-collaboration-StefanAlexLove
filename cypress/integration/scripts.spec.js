@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 //tests
-describe('Test suite with PO - FalsktAlarm', () => {
+describe('Test suite - FalsktAlarm', () => {
     beforeEach('Visit website', () => {
         cy.visit('/')
         cy.wait(2000)
