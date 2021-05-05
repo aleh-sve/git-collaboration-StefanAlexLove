@@ -7,7 +7,7 @@
     })
   //Fill contact:
     it('Fill CONTACT', () => {
-        cy.wait(200)
+        cy.wait(2000)
         cy.get('.page-item-3 > a').click()
         cy.wait(200)
         cy.get('#g3-name').type("Barbapappa Johansson")
