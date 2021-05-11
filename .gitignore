@@ -1,1 +1,8 @@
 node_modules/
+
+cypress/integration/examples/
+
+cypress/integration/testCases-LoveGruvberg/fillContact.spec.js
+cypress/integration/testCases-LoveGruvberg/scripts.spec.js
+cypress/integration/testCases-LoveGruvberg/viewblog.spec.js
+
